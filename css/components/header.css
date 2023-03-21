@@ -1,0 +1,45 @@
+.header {
+  border: 1px solid red;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 9.5rem;
+}
+/* Search Bar */
+.top__mainInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-block: 2rem;
+  gap: 2rem;
+}
+
+.top__img img {
+  max-width: 176px;
+}
+
+.top__searchBar {
+  display: flex;
+  align-items: center;
+}
+.searchBar {
+  background-color: var(--black05);
+  inline-size: 393px;
+  height: 40px;
+  max-width: 393px;
+  border-radius: 20px;
+  border: none;
+  padding-inline-start: 1rem;
+}
+
+.mglass {
+  position: absolute;
+  max-width: 24px;
+  margin-inline-start: 23rem;
+}
+
+/* Log In button */
