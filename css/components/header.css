@@ -1,5 +1,4 @@
 .header {
-  border: 1px solid red;
 }
 
 .top {
@@ -34,6 +33,7 @@
   border-radius: 20px;
   border: none;
   padding-inline-start: 1rem;
+  box-shadow: 4px 4px var(--black50);
 }
 
 .mglass {
@@ -43,3 +43,9 @@
 }
 
 /* Log In button */
+
+.button.logIn {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  inline-size: 182px;
+}

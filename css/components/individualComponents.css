@@ -1,0 +1,7 @@
+.button {
+  padding: 1rem;
+  width: 120px;
+  max-width: 120px;
+  background-color: #fff;
+  cursor: pointer;
+}

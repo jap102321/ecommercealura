@@ -1,0 +1,30 @@
+.hero {
+  block-size: 352px;
+  background-image: url("../../assets/icons/Hero2.png");
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.hero__inside {
+  padding-inline: 9.5rem;
+  padding-block-end: 2rem;
+}
+
+.heroTitle {
+  font-size: 52px;
+  margin-block-end: 1rem;
+}
+.heroSubtitle {
+  font-size: 22px;
+  margin-block-end: 1rem;
+}
+
+/* Button Styling */
+
+.button.inHero {
+  background-color: var(--blue);
+  color: white;
+  border: none;
+}
