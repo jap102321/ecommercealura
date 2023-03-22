@@ -1,3 +1,113 @@
 {
-  "adminAcc": []
+  "adminAcc": [],
+  "products": [
+    {
+      "id": 1,
+      "nombre": "Mug",
+      "categoria": "starwars",
+      "precio": 60
+    },
+    {
+      "id": 2,
+      "nombre": "Lego heads",
+      "categoria": "starwars",
+      "precio": 60
+    },
+    {
+      "id": 3,
+      "nombre": "Yoda Figure",
+      "categoria": "starwars",
+      "precio": 60
+    },
+    {
+      "id": 4,
+      "nombre": "Stormtrooper",
+      "categoria": "starwars",
+      "precio": 60
+    },
+    {
+      "id": 5,
+      "nombre": "Baby Yoda",
+      "categoria": "starwars",
+      "precio": 60
+    },
+    {
+      "id": 6,
+      "nombre": "Kylo Ren",
+      "categoria": "starwars",
+      "precio": 60
+    },
+    {
+      "id": 7,
+      "nombre": "Control Xbox",
+      "categoria": "consolas",
+      "precio": 60
+    },
+    {
+      "id": 8,
+      "nombre": "PS5",
+      "categoria": "consolas",
+      "precio": 60
+    },
+    {
+      "id": 9,
+      "nombre": "Nintendo 64",
+      "categoria": "consolas",
+      "precio": 60
+    },
+    {
+      "id": 10,
+      "nombre": "Control Switch",
+      "categoria": "consolas",
+      "precio": 60
+    },
+    {
+      "id": 11,
+      "nombre": "Xbox Series X",
+      "categoria": "consolas",
+      "precio": 60
+    },
+    {
+      "id": 12,
+      "nombre": "GameBoy",
+      "categoria": "consolas",
+      "precio": 60
+    },
+    {
+      "id": 13,
+      "nombre": "Camisa Atari",
+      "categoria": "variedad",
+      "precio": 60
+    },
+    {
+      "id": 14,
+      "nombre": "Camisa SNES",
+      "categoria": "variedad",
+      "precio": 60
+    },
+    {
+      "id": 15,
+      "nombre": "Sonic",
+      "categoria": "variedad",
+      "precio": 60
+    },
+    {
+      "id": 16,
+      "nombre": "Despertador",
+      "categoria": "variedad",
+      "precio": 60
+    },
+    {
+      "id": 17,
+      "nombre": "VR Headset",
+      "categoria": "variedad",
+      "precio": 60
+    },
+    {
+      "id": 18,
+      "nombre": "Pikachu",
+      "categoria": "variedad",
+      "precio": 60
+    }
+  ]
 }

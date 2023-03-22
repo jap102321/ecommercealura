@@ -1,3 +1,21 @@
 .products {
   margin-block-start: 4rem;
+  padding-inline: 9.5rem;
+}
+
+.product__list {
+  margin-block-end: 4rem;
+}
+.specific__products {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.product {
+  margin-block-start: 1rem;
+}
+
+.product__img img {
+  max-inline-size: 176px;
+  max-block-size: 174px;
 }
