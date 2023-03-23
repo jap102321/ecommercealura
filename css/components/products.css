@@ -19,3 +19,9 @@
   max-inline-size: 176px;
   max-block-size: 174px;
 }
+
+.seeProduct__link {
+  cursor: pointer;
+  color: var(--blue);
+  font-weight: bold;
+}

@@ -5,109 +5,127 @@
       "id": 1,
       "nombre": "Mug",
       "categoria": "starwars",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/StarWars/stormtrooper_mug.png"
     },
     {
       "id": 2,
       "nombre": "Lego heads",
       "categoria": "starwars",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/StarWars/sith_lego.png"
     },
     {
       "id": 3,
       "nombre": "Yoda Figure",
       "categoria": "starwars",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/StarWars/yoda_figure.png"
     },
     {
       "id": 4,
       "nombre": "Stormtrooper",
       "categoria": "starwars",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/StarWars/stromtrooper.png"
     },
     {
       "id": 5,
       "nombre": "Baby Yoda",
       "categoria": "starwars",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/StarWars/baby_yoda.png"
     },
     {
       "id": 6,
       "nombre": "Kylo Ren",
       "categoria": "starwars",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/StarWars/kylo_ren.png"
     },
     {
       "id": 7,
       "nombre": "Control Xbox",
       "categoria": "consolas",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Consolas/xbox_dual.png"
     },
     {
       "id": 8,
       "nombre": "PS5",
       "categoria": "consolas",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Consolas/ps5.png"
     },
     {
       "id": 9,
       "nombre": "Nintendo 64",
       "categoria": "consolas",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Consolas/n64.png"
     },
     {
       "id": 10,
       "nombre": "Control Switch",
       "categoria": "consolas",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Consolas/switch.png"
     },
     {
       "id": 11,
       "nombre": "Xbox Series X",
       "categoria": "consolas",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Consolas/xbox_series_x.png"
     },
     {
       "id": 12,
       "nombre": "GameBoy",
       "categoria": "consolas",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Consolas/gameboy.png"
     },
     {
       "id": 13,
       "nombre": "Camisa Atari",
       "categoria": "variedad",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Diversos/shirt.png"
     },
     {
       "id": 14,
       "nombre": "Camisa SNES",
       "categoria": "variedad",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Diversos/switch.png"
     },
     {
       "id": 15,
       "nombre": "Sonic",
       "categoria": "variedad",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Diversos/sonic.png"
     },
     {
       "id": 16,
       "nombre": "Despertador",
       "categoria": "variedad",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Diversos/alarm.png"
     },
     {
       "id": 17,
       "nombre": "VR Headset",
       "categoria": "variedad",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Diversos/vr.png"
     },
     {
       "id": 18,
       "nombre": "Pikachu",
       "categoria": "variedad",
-      "precio": 60
+      "precio": 60,
+      "image": "http://127.0.0.1:5500/assets/product/Diversos/pikachu.png"
     }
   ]
 }
