@@ -1,4 +1,4 @@
-import { validate } from "./validateForms.js";
+import { validate, validateTextArea } from "./validateForms.js";
 
 const logInRef = document.querySelector("[data-loginBtn]");
 const consolesRef = document.querySelector("[data-consoles]");
@@ -14,4 +14,13 @@ const refs = () => {
 
 refs();
 
-const inputs = document.querySelectorAll("[s]");
+const inputs = document.querySelectorAll("input");
+const textArea = document.querySelector("textarea");
+
+inputs.forEach((input) => {
+  input.addEventListener("blur", (input) => {
+    validate(input.target);
+  });
+});
+
+textArea.addEventListener("blur", (tarea) => validateTextArea(tarea.target));
