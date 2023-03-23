@@ -2,6 +2,7 @@
 @import "./components/header.css";
 @import "./components/hero.css";
 @import "./components/products.css";
+@import "./components/form.css";
 :root {
   --white: #fff;
   --blue: #2a7ae4;

@@ -1,5 +1,8 @@
+import { validate } from "./validateForms.js";
+
 const logInRef = document.querySelector("[data-loginBtn]");
 const consolesRef = document.querySelector("[data-consoles]");
+
 const refs = () => {
   logInRef.addEventListener("click", () => {
     window.location.href = "/screens/login.html";
@@ -10,3 +13,5 @@ const refs = () => {
 };
 
 refs();
+
+const inputs = document.querySelectorAll("[s]");

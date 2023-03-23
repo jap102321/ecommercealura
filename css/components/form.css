@@ -1,0 +1,53 @@
+.contact__form {
+  background-color: var(--blue10);
+}
+
+.contact__div {
+  padding-inline: 9.5rem;
+  padding-block: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+}
+
+.shortcut__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.shortcut {
+  list-style: none;
+}
+
+.shortcut__href {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* form styling */
+
+.contact__us {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  inline-size: 560px;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input input {
+  padding-inline: 0.8rem;
+  block-size: 43px;
+}
+.form__input textarea {
+  padding-inline: 0.8rem;
+  padding-block: 0.8rem;
+}
+.form__input input:focus::placeholder {
+  transform: translateY(-14px);
+  transition: all 0.5s;
+}
