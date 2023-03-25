@@ -1,8 +1,30 @@
 .products {
   margin-block-start: 4rem;
-  padding-inline: 9.5rem;
+  margin-inline: 9.5rem;
+  max-inline-size: 1132px;
 }
 
+.titleProduct {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.divAll {
+  display: flex;
+  align-items: center;
+}
+.divAll p {
+  cursor: pointer;
+  color: var(--blue);
+  font-weight: bold;
+}
+.divAll img {
+  cursor: pointer;
+  padding-block-start: 3px;
+  max-width: 24px;
+  max-block-size: 24px;
+}
 .product__list {
   margin-block-end: 4rem;
 }
@@ -24,4 +46,22 @@
   cursor: pointer;
   color: var(--blue);
   font-weight: bold;
+}
+
+/* Responsive */
+
+@media (max-width: 380px) {
+  .products {
+    margin-inline: 0.2rem;
+  }
+  .specific__products {
+    display: grid;
+    grid-template-columns: repeat(2, 166px);
+  }
+  .product {
+    margin-block-start: 0px;
+  }
+  .product__img {
+    max-inline-size: 176px;
+  }
 }

@@ -3,6 +3,7 @@
 @import "./components/hero.css";
 @import "./components/products.css";
 @import "./components/form.css";
+@import "./components/footer.css";
 :root {
   --white: #fff;
   --blue: #2a7ae4;
@@ -21,4 +22,8 @@
 
 .html {
   background-color: var(--white);
+}
+
+.main__content {
+  padding-inline: 9.5rem;
 }

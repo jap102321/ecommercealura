@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer__copyright {
+  text-align: center;
+  padding-block: 2.5rem;
+}

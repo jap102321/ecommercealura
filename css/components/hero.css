@@ -28,3 +28,15 @@
   color: white;
   border: none;
 }
+
+@media (max-width: 360px) {
+  .hero {
+    background-position: center;
+  }
+  .hero__inside {
+    padding-inline: 1rem;
+  }
+  .heroTitle {
+    font-size: 20px;
+  }
+}

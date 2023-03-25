@@ -69,3 +69,24 @@
   margin-top: 0.5rem;
   padding-left: 0.5rem;
 }
+
+/* responsive */
+
+@media (max-width: 360px) {
+  .contact__div {
+    padding-inline: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .contact__us {
+    inline-size: 250px;
+  }
+  .form__img img {
+    width: 200px;
+  }
+  .shortcut__list {
+    text-align: center;
+  }
+}

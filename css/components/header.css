@@ -49,3 +49,26 @@
   color: var(--blue);
   inline-size: 182px;
 }
+
+/* Responsive */
+
+@media (max-width: 360px) {
+  .top {
+    display: flex;
+    justify-content: unset;
+    padding-inline: 0;
+  }
+  .top__img img {
+    max-width: 100px;
+  }
+  .top__mainInfo {
+  }
+  .searchBar {
+    display: none;
+  }
+  .mglass {
+    display: block;
+    margin-inline-start: 10rem;
+    cursor: pointer;
+  }
+}
