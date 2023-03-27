@@ -49,14 +49,27 @@
 }
 
 /* Responsive */
-
-@media (max-width: 380px) {
+@media (max-width: 1024px) {
   .products {
-    margin-inline: 0.2rem;
+    margin-inline: 0.5rem;
   }
   .specific__products {
-    display: grid;
-    grid-template-columns: repeat(2, 166px);
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product:nth-child(5) {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .products {
+    margin-inline: 0.5rem;
+  }
+  .specific__products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: fit-content;
   }
   .product {
     margin-block-start: 0px;

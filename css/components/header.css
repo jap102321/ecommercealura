@@ -52,7 +52,7 @@
 
 /* Responsive */
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   .top {
     display: flex;
     justify-content: unset;
@@ -71,7 +71,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .top {
     display: flex;
     padding-inline: 1rem;

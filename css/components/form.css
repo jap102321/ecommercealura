@@ -71,8 +71,27 @@
 }
 
 /* responsive */
-
-@media (max-width: 360px) {
+@media (max-width: 1024px) {
+  .contact__div {
+    padding-inline: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .form__img img {
+    width: 200px;
+  }
+  .form__data {
+    padding-inline-start: 0.5rem;
+  }
+  .shortcut__list {
+    text-align: center;
+  }
+  .contact__us {
+    padding-inline-end: 1rem;
+  }
+}
+@media (max-width: 500px) {
   .contact__div {
     padding-inline: 0px;
     display: flex;
@@ -81,7 +100,8 @@
     gap: 2rem;
   }
   .contact__us {
-    inline-size: 250px;
+    padding-inline-start: 1rem;
+    max-width: 90%;
   }
   .form__img img {
     width: 200px;
