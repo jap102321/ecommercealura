@@ -1,9 +1,9 @@
-@import "./components/individualComponents.css";
-@import "./components/header.css";
-@import "./components/hero.css";
-@import "./components/products.css";
-@import "./components/form.css";
-@import "./components/footer.css";
+@import "./components/landing/individualComponents.css";
+@import "./components/landing/header.css";
+@import "./components/landing/hero.css";
+@import "./components/landing/products.css";
+@import "./components/landing/form.css";
+@import "./components/landing/footer.css";
 :root {
   --white: #fff;
   --blue: #2a7ae4;

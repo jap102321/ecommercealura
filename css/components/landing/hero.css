@@ -1,6 +1,6 @@
 .hero {
   block-size: 352px;
-  background-image: url("../../assets/icons/Hero2.png");
+  background-image: url("../../../assets/icons/Hero2.png");
   background-size: cover;
   color: white;
   display: flex;
