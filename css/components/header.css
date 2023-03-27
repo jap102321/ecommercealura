@@ -61,8 +61,6 @@
   .top__img img {
     max-width: 100px;
   }
-  .top__mainInfo {
-  }
   .searchBar {
     display: none;
   }
@@ -70,5 +68,18 @@
     display: block;
     margin-inline-start: 10rem;
     cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .top {
+    display: flex;
+    padding-inline: 1rem;
+  }
+  .searchBar {
+    inline-size: 230px;
+  }
+  .mglass {
+    margin-inline-start: 11.4rem;
   }
 }
