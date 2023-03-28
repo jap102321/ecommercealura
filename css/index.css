@@ -1,4 +1,5 @@
 @import "./landing.css";
+@import "./logIn.css";
 :root {
   --white: #fff;
   --blue: #2a7ae4;

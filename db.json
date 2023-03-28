@@ -1,5 +1,11 @@
 {
-  "adminAcc": [],
+  "adminAcc": [
+    {
+      "id": 1,
+      "user": "admin",
+      "password": "1234"
+    }
+  ],
   "products": [
     {
       "id": 1,

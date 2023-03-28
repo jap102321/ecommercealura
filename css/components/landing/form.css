@@ -34,9 +34,18 @@
   inline-size: 560px;
 }
 
+.form__data {
+  display: flex;
+  flex-direction: row;
+  gap: 7rem;
+}
+
 .form__input {
   display: flex;
   flex-direction: column;
+}
+.form__img img {
+  width: 176px;
 }
 
 .form__input input {
@@ -98,6 +107,9 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+  }
+  .form__data {
+    flex-direction: column;
   }
   .contact__us {
     padding-inline-start: 1rem;
