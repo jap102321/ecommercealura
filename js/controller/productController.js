@@ -1,5 +1,5 @@
 import { productService } from "../services/productService.js";
-const getController = () => {};
+
 const getNewProduct = (nombre, precio, image) => {
   const product = document.createElement("div");
   product.classList.add("product");
