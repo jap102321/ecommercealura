@@ -1,5 +1,6 @@
 @import "./landing.css";
 @import "./logIn.css";
+@import "./productmod.css";
 :root {
   --white: #fff;
   --blue: #2a7ae4;

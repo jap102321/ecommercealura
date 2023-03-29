@@ -12,7 +12,8 @@ const dataChecker = (input, db_data) => {
     input.parentElement.classList.remove("form__input--invalid");
     userInput.value = "";
     passInput.value = "";
-    window.location.href = "/index.html";
+    window.location.href = "/screens/products.html";
+    isLogged = true;
   }
 };
 
@@ -21,7 +22,6 @@ button.addEventListener("click", (e) => {
   e.preventDefault();
   userService.userList().then((data) => {
     data.forEach(({ user, password }) => {
-      console.log(user, password);
       dataChecker(userInput, user);
       dataChecker(passInput, password);
     });

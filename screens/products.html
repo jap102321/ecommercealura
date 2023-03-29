@@ -28,22 +28,12 @@
         </div>
     </header>
 
-    <section class="login__form">
-        <h3 class="login__form_title">Iniciar sesión</h3>
-        <form action="" class="log__check">
-            <div class="log__input">
-                <input required type="text" class="textForm" placeholder="Escriba su usuario" data-type="username">
-                <span class="input-message-error">Este campo no es valido</span>
-            </div>
-            <div class="log__input">
-                <input required type="password" class="textForm" placeholder="Escriba su contraseña"
-                    data-type="password">
-                <span class="input-message-error">Este campo no es valido</span>
-            </div>
-            <button type="submit" class="button submit__log">Ingresar</button>
-        </form>
+    <section class="products">
+        <div class="product__top">
+            <h2>Todos los productos</h2>
+            <button class="button inHero">Añadir producto</button>
+        </div>
     </section>
-
 
     <section class="contact__form">
         <div class="contact__div">
@@ -87,7 +77,8 @@
             <p>2023</p>
         </div>
     </footer>
-    <script src="../js/controller/userController.js" type="module"></script>
+    <script src="../js/controller/postController.js" type="module"></script>
+    <script src="../js/controller/putController.js" type="module"></script>
 </body>
 
 </html>
