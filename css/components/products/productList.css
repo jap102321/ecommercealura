@@ -11,3 +11,15 @@
   justify-content: center;
   gap: 2rem;
 }
+
+.updel__icons {
+  display: flex;
+  padding-inline-start: 8rem;
+  position: absolute;
+}
+
+.updel__icons img {
+  max-width: 24px;
+  max-height: 24px;
+  cursor: pointer;
+}

@@ -1,5 +1,5 @@
 import { userService } from "../services/userService.js";
-const isLogged = false;
+export const isLogged = false;
 const userInput = document.querySelector("[data-type='username']");
 const passInput = document.querySelector("[data-type='password']");
 
@@ -13,7 +13,6 @@ const dataChecker = (input, db_data) => {
     userInput.value = "";
     passInput.value = "";
     window.location.href = "/screens/products.html";
-    isLogged = true;
   }
 };
 
