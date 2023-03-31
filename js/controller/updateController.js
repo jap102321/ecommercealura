@@ -14,7 +14,7 @@ const getInfo = async () => {
   image.value = product.image;
   category.value = product.categoria;
   name.value = product.nombre;
-  price.value = product.price;
+  price.value = product.precio;
 };
 
 getInfo();
