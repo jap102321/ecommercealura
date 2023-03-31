@@ -1,0 +1,22 @@
+.edit_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: var(--black05);
+}
+.form__edit {
+  display: flex;
+  flex-direction: column;
+  max-inline-size: 559px;
+  gap: 1rem;
+  padding-block: 4rem;
+}
+
+.form__edit input {
+  border: none;
+  border-bottom: 1px solid var(--black50);
+  padding-block: 1rem;
+  padding-inline: 0.3rem;
+}

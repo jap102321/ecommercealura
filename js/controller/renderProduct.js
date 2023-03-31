@@ -6,7 +6,7 @@ const getProduct = (image, nombre, precio, id) => {
   product.classList.add("product");
   const productContent = `
     <div class="updel__icons">
-      <a href="../screens/upd_client.html?id=${id}">
+      <a href="../screens/edit_product.html?id=${id}">
         <img src="../assets/icons/pencil-svgrepo-com.svg" alt="upd icon" class="upd_icon">
       </a>
       <img src="../assets/icons/trash-full-svgrepo-com.svg" alt="del icon" class="del_icon">  
