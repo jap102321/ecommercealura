@@ -7,13 +7,13 @@ const detailProduct = (id) => {
   );
 };
 
-const updateProduct = (image, nombre, categoria, precio, id) => {
-  fetch(`http://localhost:3000/products/${id}`, {
+const updateProduct = (image, categoria, nombre, precio, id) => {
+  return fetch(`http://localhost:3000/products/${id}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({ image, nombre, categoria, precio }),
+    body: JSON.stringify({ image, categoria, nombre, precio }),
   })
     .then((resp) => resp)
     .catch((err) => console.log(err));

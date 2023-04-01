@@ -8,11 +8,11 @@
   ],
   "products": [
     {
-      "id": 1,
-      "nombre": "Mug",
+      "image": "http://127.0.0.1:5500/assets/product/StarWars/stormtrooper_mug.png",
       "categoria": "starwars",
-      "precio": 60,
-      "image": "http://127.0.0.1:5500/assets/product/StarWars/stormtrooper_mug.png"
+      "nombre": "Mug",
+      "precio": "70",
+      "id": 1
     },
     {
       "id": 2,

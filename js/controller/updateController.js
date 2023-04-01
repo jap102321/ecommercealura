@@ -9,26 +9,39 @@ const getInfo = async () => {
   const name = document.querySelector("[data-productName]");
   const price = document.querySelector("[data-productPrice]");
 
-  const product = await productService.detailProduct(idUrl);
-
-  image.value = product.image;
-  category.value = product.categoria;
-  name.value = product.nombre;
-  price.value = product.precio;
+  try {
+    const product = await productService.detailProduct(idUrl);
+    if (
+      product.image &&
+      product.categoria &&
+      product.nombre &&
+      product.precio
+    ) {
+      image.value = product.image;
+      category.value = product.categoria;
+      name.value = product.nombre;
+      price.value = product.precio;
+    } else {
+      throw new Error();
+    }
+  } catch (err) {
+    console.log(err);
+  }
 };
 
 getInfo();
 
 const updForm = document.querySelector("[data-submitUpdate]");
-
-updForm.addEventListener("submit", (e) => {
+updForm.addEventListener("submit", async (e) => {
   e.preventDefault();
   const image = document.querySelector("[data-image]").value;
   const category = document.querySelector("[data-category]").value;
   const name = document.querySelector("[data-productName]").value;
   const price = document.querySelector("[data-productPrice]").value;
 
-  productService.updateProduct(image, category, name, price, idUrl).then(() => {
-    window.location.href = "/screens/products.html";
-  });
+  await productService
+    .updateProduct(image, name, category, price, idUrl)
+    .then(() => {
+      window.location.href = "/screens/products.html";
+    });
 });
