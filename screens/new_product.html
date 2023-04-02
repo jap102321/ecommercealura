@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Producto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" href="./images/img.svg">
+</head>
+
+<body>
+    <header class="header">
+        <div class="top">
+            <div class="top__mainInfo">
+                <div class="top__img">
+                    <img src="../assets/icons/Logo.png" alt="AluraGeek Logo">
+                </div>
+                <div class="top__searchBar">
+                    <input type="text" placeholder="¿Qué deseas buscar?" class="searchBar">
+                    <img src="../assets/icons/lupa.png" alt="Search Icon" class="mglass">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="edit__form">
+        <form class="form__edit" data-submitProduct>
+            <h2>Agregar nuevo producto</h2>
+            <input required type="text" placeholder="URL de imagen" data-imagePost>
+            <input required type="text" placeholder="Categoria" data-categoryPost>
+            <input required type="text" placeholder="Nombre del producto" data-productNamePost>
+            <input required type="number" placeholder="Precio del producto" data-productPricePost>
+            <textarea name="description" id="" cols="30" rows="10" data-description></textarea>
+            <button type="submit" class="button submit__log edit__button">Añadir Producto</button>
+        </form>
+    </section>
+
+
+    <section class="contact__form">
+        <div class="contact__div">
+            <div class="form__data">
+                <div class="form__img">
+                    <a href="../index.html"><img src="../assets/icons/Logo.png" alt="Logo"></a>
+                </div>
+                <div class="shortcut__links">
+                    <ul class="shortcut__list">
+                        <li class="shortcut"><a href="" class="shortcut__href">Quienes somos</a></li>
+                        <li class="shortcut"><a href="" class="shortcut__href">Politica de privacidad</a></li>
+                        <li class="shortcut"><a href="" class="shortcut__href">Programa de fidelidad</a></li>
+                        <li class="shortcut"><a href="" class="shortcut__href">Nuestras tiendas</a></li>
+                        <li class="shortcut"><a href="" class="shortcut__href">Quiero ser franquiciado</a></li>
+                        <li class="shortcut"><a href="" class="shortcut__href">Anuncie aquí</a></li>
+                    </ul>
+                </div>
+            </div>
+            <form action="" class="contact__us">
+                <h3 class="form__title">Hable con nosotros</h3>
+                <div class="form__input">
+                    <label for="name"></label>
+                    <input type="text" placeholder="Nombre" required class="textForm nameInput" name="name"
+                        data-type="name">
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div class="form__input">
+                    <textarea required name="inquiry" id="inquiry" class="textForm" cols="30" rows="4"
+                        placeholder="Deja tu mensaje" data-type="textarea"></textarea>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <button class="button inHero">Enviar mensaje</button>
+            </form>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__copyright">
+            <p>Desarrollado por Juan Pablo González</p>
+            <p>2023</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../js/controller/add-productController.js" type="module"></script>
+</body>
+
+</html>
