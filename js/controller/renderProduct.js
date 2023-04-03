@@ -9,7 +9,7 @@ const getProduct = (image, nombre, precio, id) => {
       <a href="../screens/edit_product.html?id=${id}">
         <img src="../assets/icons/pencil-svgrepo-com.svg" alt="upd icon" class="upd_icon">
       </a>
-      <img src="../assets/icons/trash-full-svgrepo-com.svg" alt="del icon" class="del_icon">  
+      <img src="../assets/icons/trash-full-svgrepo-com.svg" alt="del icon" class="del_icon" id=${id}>  
     </div>
     <div class="product__img">
         <img src="${image}" alt="">
@@ -25,6 +25,19 @@ const getProduct = (image, nombre, precio, id) => {
     </div>
     `;
   product.innerHTML = productContent;
+
+  const delIcon = product.querySelector(".del_icon");
+
+  delIcon.addEventListener("click", () => {
+    const id = delIcon.id;
+    productService
+      .deleteProduct(id)
+      .then((resp) => {
+        alert(`El producto ${id} fue eliminado exitosamente.`);
+      })
+      .catch((err) => alert("Error"));
+  });
+
   return product;
 };
 
@@ -34,3 +47,5 @@ productService.productList().then((data) => {
     productListDiv.appendChild(product);
   });
 });
+
+const delIcon = document.querySelector(".del_icon");

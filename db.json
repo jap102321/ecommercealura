@@ -43,13 +43,6 @@
       "image": "http://127.0.0.1:5500/assets/product/StarWars/baby_yoda.png"
     },
     {
-      "id": 6,
-      "nombre": "Kylo Ren",
-      "categoria": "starwars",
-      "precio": 60,
-      "image": "http://127.0.0.1:5500/assets/product/StarWars/kylo_ren.png"
-    },
-    {
       "id": 7,
       "nombre": "Control Xbox",
       "categoria": "consolas",
