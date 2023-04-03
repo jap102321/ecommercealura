@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+  margin-block-start: 2rem;
 }
 
 .updel__icons {

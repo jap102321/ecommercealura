@@ -132,6 +132,13 @@
       "categoria": "variedad",
       "precio": 60,
       "image": "http://127.0.0.1:5500/assets/product/Diversos/pikachu.png"
+    },
+    {
+      "id": "09a2e0ed-ad4b-41e7-949e-b122d670a35f",
+      "image": "http://127.0.0.1:5500/assets/product/StarWars/manyfigures.jpg",
+      "categoria": "starwars",
+      "nombre": "Figuras Varias",
+      "precio": "150"
     }
   ]
 }

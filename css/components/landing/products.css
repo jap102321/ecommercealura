@@ -34,7 +34,10 @@
   gap: 1rem;
 }
 .product {
-  margin-block-start: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-inline-size: 174px;
 }
 
 .product__img img {
