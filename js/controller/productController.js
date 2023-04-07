@@ -1,5 +1,5 @@
 import { productService } from "../services/productService.js";
-
+import { searchBarApplication } from "../searchBar.js";
 const getNewProduct = (nombre, precio, image) => {
   const product = document.createElement("div");
   product.classList.add("product");
@@ -45,3 +45,5 @@ productService
     });
   })
   .catch((err) => console.log(err));
+
+searchBarApplication();

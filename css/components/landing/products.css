@@ -31,12 +31,12 @@
 .specific__products {
   display: flex;
   flex-direction: row;
+
   gap: 1rem;
 }
 .product {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   max-inline-size: 174px;
 }
 
@@ -52,6 +52,11 @@
 }
 
 /* Responsive */
+@media (max-width: 1240px) {
+  .specific__products {
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 1024px) {
   .products {
     margin-inline: 0.5rem;

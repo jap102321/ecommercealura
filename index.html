@@ -21,8 +21,20 @@
                     <a href="../index.html"><img src="../assets/icons/Logo.png" alt="Logo"></a>
                 </div>
                 <div class="top__searchBar">
-                    <input type="text" placeholder="¿Qué deseas buscar?" class="searchBar">
+                    <input type="text" placeholder="¿Qué deseas buscar?" class="searchBar" data-searchBar>
                     <img src="./assets/icons/lupa.png" alt="Search Icon" class="mglass">
+                    <div class="search_barDiv" data-searchBar__div>
+                        <template data-searchTemplate>
+                            <div class="product__searchbar">
+                                <div class="search_img">
+                                    <img src="" alt="" data-searchImg>
+                                </div>
+                                <div class="search_info" data-searchBody>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+
                 </div>
             </div>
             <div class="top__logButton">
@@ -49,7 +61,7 @@
             <div class="titleProduct">
                 <h2 class="listTitle">Star Wars</h2>
                 <div class="divAll">
-                    <p class="seeAll">Ver todo</p>
+                    <p class="seeAll" data-seeAll>Ver todo</p>
                     <img src="./assets/icons/arrow__right.png" alt="">
                 </div>
             </div>
@@ -60,7 +72,7 @@
             <div class="titleProduct">
                 <h2 class="listTitle" id="consolasDiv">Consola</h2>
                 <div class="divAll">
-                    <p class="seeAll">Ver todo</p>
+                    <p class="seeAll" data-seeAll>Ver todo</p>
                     <img src="./assets/icons/arrow__right.png" alt="">
                 </div>
             </div>
@@ -71,7 +83,7 @@
             <div class="titleProduct">
                 <h2 class="listTitle">Variedad</h2>
                 <div class="divAll">
-                    <p class="seeAll">Ver todo</p>
+                    <p class="seeAll" data-seeAll>Ver todo</p>
                     <img src="./assets/icons/arrow__right.png" alt="">
                 </div>
             </div>
@@ -89,12 +101,12 @@
                 </div>
                 <div class="shortcut__links">
                     <ul class="shortcut__list">
-                        <li class="shortcut"><a href="" class="shortcut__href">Quienes somos</a></li>
-                        <li class="shortcut"><a href="" class="shortcut__href">Politica de privacidad</a></li>
-                        <li class="shortcut"><a href="" class="shortcut__href">Programa de fidelidad</a></li>
-                        <li class="shortcut"><a href="" class="shortcut__href">Nuestras tiendas</a></li>
-                        <li class="shortcut"><a href="" class="shortcut__href">Quiero ser franquiciado</a></li>
-                        <li class="shortcut"><a href="" class="shortcut__href">Anuncie aquí</a></li>
+                        <li class="shortcut"><a href="#" class="shortcut__href">Quienes somos</a></li>
+                        <li class="shortcut"><a href="#" class="shortcut__href">Politica de privacidad</a></li>
+                        <li class="shortcut"><a href="#" class="shortcut__href">Programa de fidelidad</a></li>
+                        <li class="shortcut"><a href="#" class="shortcut__href">Nuestras tiendas</a></li>
+                        <li class="shortcut"><a href="#" class="shortcut__href">Quiero ser franquiciado</a></li>
+                        <li class="shortcut"><a href="#" class="shortcut__href">Anuncie aquí</a></li>
                     </ul>
                 </div>
             </div>
@@ -123,6 +135,7 @@
             <p>2023</p>
         </div>
     </footer>
+
 
     <script src="js/index.js" type="module"></script>
     <script src="js/controller/productController.js" type="module"></script>

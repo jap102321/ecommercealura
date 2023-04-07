@@ -1,0 +1,28 @@
+.search_barDiv {
+  width: 393px;
+  max-height: 90px;
+  z-index: 1;
+  position: absolute;
+  margin-block-start: 8.3rem;
+  margin-inline-start: 0.5rem;
+}
+
+.product__searchbar {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  max-width: 393px;
+  background-color: var(--white);
+  gap: 1rem;
+}
+.search_img {
+  display: flex;
+}
+.search_img img {
+  max-width: 90px;
+  max-height: 71.4px;
+}
+
+.isHide {
+  display: none;
+}
